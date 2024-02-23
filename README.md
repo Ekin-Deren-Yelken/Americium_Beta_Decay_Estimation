@@ -37,8 +37,14 @@ $\tau =\frac{1}{a}=\frac{t_{\frac{1}{2}}}{ln(2)}$
 10. The lifetime can be found using the general forms. The lifetime $\tau$ is calculated analytically using halflife $t_{/frac{1}{2}}$
 11. To verify results, consult tabulated values for half life and lifetime found in literature
 
+## Results
+![image](https://github.com/Ekin-Deren-Yelken/Americium_Beta_Decay_Estimation/assets/128660105/ec601cca-4324-4ff1-9e86-5580c44d941f)
 
-# Resources and Citations
+![image](https://github.com/Ekin-Deren-Yelken/Americium_Beta_Decay_Estimation/assets/128660105/5daf1902-39f1-450f-bee8-96c14736fd14)
+
+A lifetime of 96ns and halflife of 67 ns is found.
+
+## Resources and Citations
 [1] “DOE Explains...Radioactivity,” Energy.gov. Accessed: Feb. 06, 2024. [Online]. Available: https://www.energy.gov/science/doe-explainsradioactivity
 [2] E. Segre, Nuclei and Particles: An Introduction to Nuclear and Subnuclear Physics (2nd Edition). Redwood City, Ca: Benjamin-Cummings Publishing Company, Subs Of Addison Wesley Longman, Inc, 1977. Accessed: Feb. 06, 2024. [Online]. Available: https://www.biblio.com/book/nuclei-particles- introduction-nuclear-subnuclear-physics/d/1538238155
 [3] J. B. Cumming and D. E. Alburger, “Search for the decay of 180Tam,” Phys. Rev. C Nucl. Phys., vol. 31, no. 4, pp. 1494–1498, Apr. 1985, doi: 10.1103/physrevc.31.1494.
