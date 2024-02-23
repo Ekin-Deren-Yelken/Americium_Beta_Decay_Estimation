@@ -22,7 +22,20 @@ The lifetime is expected to be ~67 ns [5] and can be obtained using
 $\tau =\frac{1}{a}=\frac{t_{\frac{1}{2}}}{ln(2)}$
 
 ## Procedure
-
+1. The TPHC must be calibrated using an ORTEC time calibrator and gate and delay generator.
+2. Once calibrated, output signals that were amplified and controlled with the discriminator threshold are fed into the input of the TPHC. The trigger and output signal are sent to be view on the oscilloscope and LabView via the multi-channel analyzer.
+3. Delay between signals must be introduced. The easiest way to do this is by ataching a long wire between one of the signal discriminators and the TPHC. In this experiment, this was done between the gamma discriminator and TPHC.
+4. LabView dashboard and software is run over a long period of time to develop a histogram where voltages incrementing in 0.05V are the bins.
+5. A clearer histogram can be obtained by fine tuning the gain and threshold on the amplifiers and discriminators respectively.
+6. Data can be exported in the form of a comma separated value (CSV) file. This can be imported into data analysis software such as Python and MATLAB. The histogram is expected to follow a decaying exponential in its general shape.
+8. The data is cleaned and analyze in the following steps:
+- Voltage can be converted into time using the time calibration results in the setup. A new histogram with time as the x-axis is made.
+- A baseline noise is observed prior to the expected exponential decay. This is removed by averaging the counts in bins related to noise and subtracting them from all the data.
+- All bins that are zero or negative are removed and the exponential curve is isolated.
+- Using curve fiting tools, an exponential function is fit onto the data.
+- It can be observed that the exponential is a convolution of a gaussian and exponential function. For more accurate results, switch the discriminator outputs to positive and obtain a gaussian. Use the software to deconvolve the gaussian and exponential curve, which will theoretically result in a smooth exponential decay curve.
+10. The lifetime can be found using the general forms. The lifetime $\tau$ is calculated analytically using halflife $t_{/frac{1}{2}}$
+11. To verify results, consult tabulated values for half life and lifetime found in literature
 
 
 # Resources and Citations
